@@ -1,0 +1,78 @@
+*{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+a,img{
+    border:none;
+}
+.ajustable{
+    clear:both;
+    overflow: hidden;
+}
+.cuerpobody{
+    max-width:960px;
+    margin:0px auto;
+}
+#logo{
+    float:left;
+    height:70px;
+}
+#cuadrocuenta{
+    float:right;
+    white-space: nowrap;
+    text-align: right;
+    overflow: hidden;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+.cuadroapartadotitle{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius:  0px;
+    clear:both;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+}
+.cuadroapartadocuerpo{
+    border: 1px solid #D4D4D4;
+    border-top: none;
+    display:block;
+    overflow: hidden;
+    padding: 15px;
+}
+.cuadroapartado{
+    overflow: hidden;
+    margin-top: 5px;
+    clear: both;
+}
+/*#leftpanel{
+    float:left;
+    width:250px;
+    margin-right: 5px;
+}*/
+#rightpanel{
+    /*display:block;*/
+    padding: 15px;
+    padding-top: 5px;
+}
+#panelcalendario{
+    width:100%;
+}
+.navbar-form .k-widget{
+    margin-top:5px;
+}
+#chart1 {
+    display: block;
+    height: 250px;
+    border:1px solid #d4d4d4;
+}
+#chart2 {
+    margin-top:20px;
+    display: block;
+    height: 250px;
+    border:1px solid #d4d4d4;
+}
